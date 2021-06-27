@@ -34,4 +34,14 @@ The was retrieved from [CryptoCompare](https://min-api.cryptocompare.com/data/al
 
     ![image](https://github.com/snkty8/Cryptocurrencies/blob/main/images/tradable_crypto.png)
 
-    - 
+    - A dataframe showing TotalCoinSupply, TotalCoinsMined, CoinName, and Class:
+
+    ![image](https://github.com/snkty8/Cryptocurrencies/blob/main/images/plot_df.png)
+
+    - Lastly, using hvplot a scatter plot of TotalCoinsMined vs TotalCoinSupply ordered by Class was also created. 
+
+    ![image](https://github.com/snkty8/Cryptocurrencies/blob/main/images/hvplot.png)   
+
+## Summary 
+
+Using unsupervised learning we were able to successfully indentify 533 tradable cryptocurrencies.  Further analysis would need to be done to figure out how profitable each of these currencies are on the market. 
